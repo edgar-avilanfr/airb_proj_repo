@@ -1,0 +1,9 @@
+version : 2
+sources:
+  - name: staging_airbnb
+    database: developer3-457903
+    schema: air_staging
+    tables:
+      - name: raw_hosts
+      - name: raw_reviews
+      - name: raw_listings
