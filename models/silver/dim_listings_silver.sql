@@ -1,3 +1,8 @@
+{{
+    config(
+        materialized="view"
+    )
+}}
 with listings as (
     select * from {{ref("listings_raw")}}
 )
