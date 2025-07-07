@@ -1,3 +1,8 @@
+{{
+    config(
+        materialized="view"
+    )
+}}
 with hosts as (select * from {{ ref("hosts_raw") }})
 
 select

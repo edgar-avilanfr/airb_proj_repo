@@ -39,7 +39,7 @@ models:
   aribnb_challenge:
     bronze1:
       schema : 'bronze'
-      +materialized: view
+      +materialized: ephemeral
     silver:
       schema: 'silver'
       +materialized: table
