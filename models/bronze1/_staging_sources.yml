@@ -7,3 +7,4 @@ sources:
       - name: raw_hosts
       - name: raw_reviews
       - name: raw_listings
+      - name: full_moons
