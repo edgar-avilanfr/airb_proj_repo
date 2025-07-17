@@ -1,0 +1,1 @@
+{{ no_nulls_in_colls(ref('dim_listings_silver')) }}
